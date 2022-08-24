@@ -30,6 +30,11 @@ function Projects() {
                     referencing later, they will be prompted to sign up or log
                     in.
                 </p>
+                <div>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+                        <img src="" alt="" />
+                    </a>
+                </div>
             </div>
 
             <div className="WhaleWatchersContainer flex flex-row">
