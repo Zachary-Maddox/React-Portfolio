@@ -1,15 +1,21 @@
 import React from "react";
-import { FaHtml5,FaNodeJs } from 'react-icons/fa';
-import {IoLogoCss3 } from 'react-icons/io';
-import {SiJavascript,SiMysql,SiExpress,SiHandlebarsdotjs,SiJquery } from 'react-icons/si';
-import {GrReactjs} from 'react-icons/gr';
-
-
+import { FaHtml5, FaNodeJs } from "react-icons/fa";
+import { IoLogoCss3 } from "react-icons/io";
+import {
+    SiJavascript,
+    SiMysql,
+    SiExpress,
+    SiHandlebarsdotjs,
+    SiJquery,
+} from "react-icons/si";
+import { GrReactjs } from "react-icons/gr";
 
 function AboutMe() {
     return (
         <div id="AboutMe">
-            <h1 className="AboutMe my-1 mx-8 text-4xl font-serif">Zachary Maddox</h1>
+            <h1 className="AboutMe my-1 mx-8 text-4xl font-serif bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-violet-800 to-cyan-400">
+                Zachary Maddox
+            </h1>
             <h2 className="Title mb-8 mx-8 text-lg">
                 Full Stack Web Devoloper in the Making{" "}
             </h2>
@@ -23,39 +29,45 @@ function AboutMe() {
             <h2 className="text-2xl text-center underline-offset-8 my-4 font-serif">
                 Technologies Used
             </h2>
-            
+
             <div className="m-5 text-center flex justify-center ">
-                <a  href="https://www.w3schools.com/html/">
-                <FaHtml5 size={30} color="red" />
+                <a href="https://www.w3schools.com/html/">
+                    <FaHtml5 size={30} color="red" />
                 </a>
-                <a className="ml-2" href=" https://developer.mozilla.org/en-US/docs/Web/CSS">
+                <a
+                    className="ml-2"
+                    href=" https://developer.mozilla.org/en-US/docs/Web/CSS"
+                >
                     {" "}
-                    <IoLogoCss3  size={30} color="blue"/>
-                    </a>
-                <a className="ml-2" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+                    <IoLogoCss3 size={30} color="#000C66" />
+                </a>
+                <a
+                    className="ml-2"
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                >
                     {" "}
-                    <SiJavascript  size={30} color="yellow"/>
-                    </a>
+                    <SiJavascript size={30} color="yellow" />
+                </a>
                 <a className="ml-2" href="https://nodejs.org/en/">
                     {" "}
-                    <FaNodeJs  size={30} color="green"/>
-                    </a>
+                    <FaNodeJs size={30} color="green" />
+                </a>
                 <a className="ml-2" href="https://reactjs.org/">
                     {" "}
-                    <GrReactjs  size={30} color="lightblue"/>
-                    </a>
+                    <GrReactjs size={30} color="lightblue" />
+                </a>
                 <a className="ml-2" href="https://www.mysql.com/">
-                    <SiMysql  size={30} color="orange" />
-                    </a>
+                    <SiMysql size={30} color="orange" />
+                </a>
                 <a className="ml-2" href="https://expressjs.com/">
                     <SiExpress size={30} color="gray" />
-                    </a>
+                </a>
                 <a className="ml-2" href="https://handlebarsjs.com/">
-                    <SiHandlebarsdotjs size={30}  />
-                    </a>
+                    <SiHandlebarsdotjs size={30} color="black" />
+                </a>
                 <a className="ml-2" href="https://jquery.com/">
-                    <SiJquery size={30}color="blue" />
-                    </a>
+                    <SiJquery size={30} color="#000C66" />
+                </a>
             </div>
         </div>
     );

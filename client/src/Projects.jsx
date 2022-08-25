@@ -6,6 +6,7 @@ import {
     SiExpress,
     SiBulma,
     SiJquery,
+    SiGithub
 } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoRocketOutline } from "react-icons/io5";
@@ -31,6 +32,12 @@ function Projects() {
                                 <IoRocketOutline /> Deployed link
                             </button>
                         </a>
+                        <a href="https://github.com/StevenBolc/GameGetter">
+                            <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center ml-2">
+                                {" "}
+                                <SiGithub/> Repository link
+                            </button>
+                        </a>
                     </div>
                     <p className="indent-2 mb-4 mx-4">
                         Game Getter is an interactive application that allows
@@ -51,7 +58,7 @@ function Projects() {
                     <div className="flex justify-center">
                         <i>
                             {" "}
-                            <SiHandlebarsdotjs size={30} />
+                            <SiHandlebarsdotjs size={30} color="black" />
                         </i>
                         <i className="ml-2">
                             {" "}
@@ -59,7 +66,7 @@ function Projects() {
                         </i>
                         <i className="ml-2">
                             {" "}
-                            <IoLogoCss3 size={30} color="blue" />
+                            <IoLogoCss3 size={30} color="#000C66" />
                         </i>
                         <i className="ml-2">
                             {" "}
@@ -83,10 +90,17 @@ function Projects() {
             <div className="WhaleWatchersContainer flex flex-1 flex-row mb-8">
                 <div className="basis-1/2">
                     <h3 className="text-end m-4 font-serif">WHALE WATCHERS</h3>
-                    <div className="text-center">
+                    <div className="flex justify-center">
                         <a href="https://jgordon59.github.io/Whale-Watchers/">
-                            <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2">
-                                Deployed link
+                        <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">
+                                {" "}
+                                <IoRocketOutline/> Deployed link
+                            </button>
+                        </a>
+                        <a href=" https://github.com/JGordon59/Whale-Watchers">
+                        <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center ml-2">
+                                {" "}
+                                <SiGithub/> Repository link
                             </button>
                         </a>
                     </div>
@@ -108,7 +122,7 @@ function Projects() {
                         </i>
                         <i className="ml-2">
                             {" "}
-                            <IoLogoCss3 size={30} color="blue" />
+                            <IoLogoCss3 size={30} color="#000C66" />
                         </i>
                         <i className="ml-2">
                             {" "}
@@ -134,10 +148,11 @@ function Projects() {
                     <h3 className="text-end m-4 font-serif">
                         WORK DAY SCHEDULER
                     </h3>
-                    <div className="text-center">
+                    <div className="flex justify-center">
                         <a href="https://github.com/Zachary-Maddox/workday-scheduler">
-                            <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2">
-                                Repository Link
+                        <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">
+                                {" "}
+                                <SiGithub /> Repository Link
                             </button>
                         </a>
                     </div>
@@ -157,7 +172,7 @@ function Projects() {
                         </i>
                         <i className="ml-2">
                             {" "}
-                            <IoLogoCss3 size={30} color="blue" />
+                            <IoLogoCss3 size={30} color="#000C66" />
                         </i>
                         <i className="ml-2">
                             {" "}
@@ -165,7 +180,90 @@ function Projects() {
                         </i>
                         <i className="ml-2">
                             {" "}
-                            <SiJquery size={30} color="blue" />
+                            <SiJquery size={30} color="#000C66" />
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div className="NoteTakerContainer flex flex-1 flex-row mb-8">
+                <div className="basis-1/2">
+                    <h3 className="text-end m-4 font-serif">NOTE TAKER</h3>
+                    <div className="flex justify-center">
+                        <a href=" https://zachary-maddox.github.io/taker-of-thy-notes/">
+                        <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">
+                                {" "}
+                                <IoRocketOutline /> Deployed link
+                            </button>
+                        </a>
+                        <a href=" https://github.com/Zachary-Maddox/taker-of-thy-notes">
+                        <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center ml-2">
+                                {" "}
+                                <SiGithub/> Repository link
+                            </button>
+                        </a>
+                    </div>
+                    <p className="indent-2 mb-4 mx-4">
+                    Note taking application that allows you create and save notes to a Database. You Click on the new note title to create and once the new note is created you simply press the save icon to save the note. After you have multiple notes added you can always go back and review by clicking on that particular note in the left hand column. From there the note you selected will appear in the righthand column.
+                    </p>
+
+                    <div className=" flex justify-center">
+                        <i className="ml-2">
+                            {" "}
+                            <SiJavascript size={30} color="yellow" />
+                        </i>
+                        <i className="ml-2">
+                            {" "}
+                            <IoLogoCss3 size={30} color="#000C66" />
+                        </i>
+                        <i className="ml-2">
+                            {" "}
+                            <FaHtml5 size={30} color="red" />
+                        </i>
+                    </div>
+                </div>
+                <img
+                    className="NoteTakerImage basis-1/2 w-20 hover:scale-105"
+                    src="./images/Note-Taker.png"
+                />
+            </div>
+            <div className="WeatherForecastContainer flex flex-1 flex-row mb-8">
+                <img
+                    className="WeatherForecastImage basis-1/2 w-20 hover:scale-105"
+                    src="./images/Weather-Forecast.png"
+                />
+                <div className="basis-1/2">
+                    <h3 className="text-end m-4 font-serif">
+                        WEATHER FORECAST
+                    </h3>
+                    <div className="flex justify-center">
+                        <a href="https://github.com/Zachary-Maddox/weather-forecast">
+                        <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">
+                                {" "}
+                                <SiGithub /> Repository Link
+                            </button>
+                        </a>
+                        <a href=" https://zachary-maddox.github.io/weather-forecast/ ">
+                        <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center ml-2">
+                                {" "}
+                                <IoRocketOutline /> Deployed Link
+                            </button>
+                        </a>
+                    </div>
+                    <p className="indent-2 mb-4 mx-4">
+                    Five-day weather forecast that allows you to search up a city and gives you the weather temp,wind,humidity,uv index,and weather icon. You will also see the City and date displayed in the top section.
+                    </p>
+                    <div className=" flex justify-center">
+                        <i className="ml-2">
+                            {" "}
+                            <SiJavascript size={30} color="yellow" />
+                        </i>
+                        <i className="ml-2">
+                            {" "}
+                            <IoLogoCss3 size={30} color="#000C66" />
+                        </i>
+                        <i className="ml-2">
+                            {" "}
+                            <FaHtml5 size={30} color="red" />
                         </i>
                     </div>
                 </div>

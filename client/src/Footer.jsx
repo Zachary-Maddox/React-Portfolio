@@ -1,5 +1,5 @@
 import React from "react";
-import { SiGithub, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiLinkedin,SiStackoverflow } from "react-icons/si";
 import {
     AiOutlineCopyright,
     AiOutlineMail,
@@ -39,6 +39,10 @@ function footer() {
                 <a href="https://www.linkedin.com/in/zach-maddox-539a85142/">
                     {" "}
                     <SiLinkedin size={30} />
+                </a>
+                <a href="https://stackoverflow.com/users/19164426/zachary-maddox">
+                    {" "}
+                    <SiStackoverflow size={30} />
                 </a>
             </div>
             <div className="pb-4 text-center flex justify-center items-center font-serif">
