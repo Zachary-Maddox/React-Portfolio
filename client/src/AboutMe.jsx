@@ -1,7 +1,7 @@
 import React from "react";
 import { FaHtml5,FaNodeJs } from 'react-icons/fa';
 import {IoLogoCss3 } from 'react-icons/io';
-import {SiJavascript,SiMysql } from 'react-icons/si';
+import {SiJavascript,SiMysql,SiExpress,SiHandlebarsdotjs,SiJquery } from 'react-icons/si';
 import {GrReactjs} from 'react-icons/gr';
 
 
@@ -46,6 +46,15 @@ function AboutMe() {
                     </a>
                 <a className="ml-2" href="https://www.mysql.com/">
                     <SiMysql  size={30} color="orange" />
+                    </a>
+                <a className="ml-2" href="https://expressjs.com/">
+                    <SiExpress size={30} color="gray" />
+                    </a>
+                <a className="ml-2" href="https://handlebarsjs.com/">
+                    <SiHandlebarsdotjs size={30}  />
+                    </a>
+                <a className="ml-2" href="https://jquery.com/">
+                    <SiJquery size={30}color="blue" />
                     </a>
             </div>
         </div>

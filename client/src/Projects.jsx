@@ -1,5 +1,12 @@
 import React from "react";
-import { SiHandlebarsdotjs, SiJavascript, SiMysql } from "react-icons/si";
+import {
+    SiHandlebarsdotjs,
+    SiJavascript,
+    SiMysql,
+    SiExpress,
+    SiBulma,
+    SiJquery,
+} from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
 import { FaHtml5, FaNodeJs } from "react-icons/fa";
 // bring in icon like you did on about me and make them a prop
@@ -12,7 +19,7 @@ function Projects() {
             </h2>
             <div className="GamegetterContainer  flex flex-1 flex-row mb-8">
                 <img
-                    className="GameGetterImage basis-1/2 w-32 "
+                    className="GameGetterImage basis-1/2 w-28 "
                     src="./images/game-Getter.png"
                 />
                 <div className="basis-1/2">
@@ -58,12 +65,16 @@ function Projects() {
                             {" "}
                             <SiMysql size={30} color="orange" />
                         </i>
+                        <i className="ml-2">
+                            {" "}
+                            <SiExpress size={30} color="gray" />
+                        </i>
                     </div>
                 </div>
             </div>
-            <div className="WhaleWatchersContainer  flex flex-1 flex-row mb-8">
+            <div className="WhaleWatchersContainer flex flex-1 flex-row mb-8">
                 <img
-                    className="WhaleWatchersImage basis-1/2 w-32"
+                    className="WhaleWatchersImage basis-1/2 w-28"
                     src="./images/whale-Watchers.png"
                 />
                 <div className="basis-1/2">
@@ -78,25 +89,61 @@ function Projects() {
                         Change,Daily Low,Daily High,Open Price and Closed Price
                         using third party APIs.
                     </p>
+                    <div className=" flex justify-center">
+                        <i className="ml-2">
+                            {" "}
+                            <SiJavascript size={30} color="yellow" />
+                        </i>
+                        <i className="ml-2">
+                            {" "}
+                            <IoLogoCss3 size={30} color="blue" />
+                        </i>
+                        <i className="ml-2">
+                            {" "}
+                            <FaHtml5 size={30} color="red" />
+                        </i>
+                        <i className="ml-2">
+                            {" "}
+                            <SiBulma size={30} color="#50C878" />
+                        </i>
+                    </div>
                 </div>
             </div>
-
-            <div className="WorkDaySchedulerContainer flex flex-row">
-                <h3 className="text-end basis-1/2">Work Day Scheduler</h3>
+            <div className="WorkDaySchedulerContainer flex flex-1 flex-row mb-8">
                 <img
-                    className="WorkDaySchedulerImage"
+                    className="WorkDaySchedulerImage basis-1/2 w-28"
                     src="./images/work-Day-Scheduler.png"
                 />
-            </div>
-            <div className="flex justify-end">
-                <p className="w-1/2 indent-2">
-                    Workday scheduler is a color coded scheduler for a 9-5 job
-                    that has a updating current date at the top and a built-in
-                    color coded interval for current , present,and past. Current
-                    is red , past is grey, and future is green. This scheduler
-                    is locally stored and pullrf so that when you refresh the
-                    page your textarea input is still there.
-                </p>
+                <div className="basis-1/2">
+                    <h3 className="text-end m-4">Work Day Scheduler</h3>
+                    <p className="indent-2 mb-4 mx-4">
+                        Workday scheduler is a color coded scheduler for a 9-5
+                        job that has a updating current date at the top and a
+                        built-in color coded interval for current , present,and
+                        past. Current is red , past is grey, and future is
+                        green. This scheduler is locally stored and pullrf so
+                        that when you refresh the page your textarea input is
+                        still there.
+                    </p>
+                    <div className=" flex justify-center">
+                        <i className="ml-2">
+                            {" "}
+                            <SiJavascript size={30} color="yellow" />
+                        </i>
+                        <i className="ml-2">
+                            {" "}
+                            <IoLogoCss3 size={30} color="blue" />
+                        </i>
+                        <i className="ml-2">
+                            {" "}
+                            <FaHtml5 size={30} color="red" />
+                        </i>
+                        <i className="ml-2">
+                            {" "}
+                            <SiJquery size={30} color="blue" />
+                        </i>
+                    </div>
+                </div>
             </div>
         </div>
     );
