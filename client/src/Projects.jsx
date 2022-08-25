@@ -8,22 +8,30 @@ import {
     SiJquery,
 } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
+import { IoRocketOutline } from "react-icons/io5";
 import { FaHtml5, FaNodeJs } from "react-icons/fa";
-// bring in icon like you did on about me and make them a prop
 
 function Projects() {
     return (
         <div id="Projects">
-            <h2 className="text-2xl text-center underline-offset-8  my-8">
+            <h2 className="text-2xl text-center underline-offset-8  my-8 font-serif">
                 Work created or contributed to
             </h2>
             <div className="GamegetterContainer  flex flex-1 flex-row mb-8">
                 <img
-                    className="GameGetterImage basis-1/2 w-28 "
+                    className="GameGetterImage basis-1/2 w-20 hover:scale-105"
                     src="./images/game-Getter.png"
                 />
                 <div className="basis-1/2">
-                    <h3 className=" text-end m-4">Game Getter</h3>
+                    <h3 className=" text-end m-4 font-serif">GAME GETTER</h3>
+                    <div className="flex justify-center">
+                        <a href="https://game-getter-project-2.herokuapp.com/">
+                            <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">
+                                {" "}
+                                <IoRocketOutline /> Deployed link
+                            </button>
+                        </a>
+                    </div>
                     <p className="indent-2 mb-4 mx-4">
                         Game Getter is an interactive application that allows
                         users to search for over 16,700 video games from various
@@ -40,7 +48,7 @@ function Projects() {
                         their own personalized dashboard for referencing later,
                         they will be prompted to sign up or log in.
                     </p>
-                    <div className=" flex justify-center">
+                    <div className="flex justify-center">
                         <i>
                             {" "}
                             <SiHandlebarsdotjs size={30} />
@@ -73,12 +81,15 @@ function Projects() {
                 </div>
             </div>
             <div className="WhaleWatchersContainer flex flex-1 flex-row mb-8">
-                <img
-                    className="WhaleWatchersImage basis-1/2 w-28"
-                    src="./images/whale-Watchers.png"
-                />
                 <div className="basis-1/2">
-                    <h3 className="text-end m-4">Whale Watchers</h3>
+                    <h3 className="text-end m-4 font-serif">WHALE WATCHERS</h3>
+                    <div className="text-center">
+                        <a href="https://jgordon59.github.io/Whale-Watchers/">
+                            <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2">
+                                Deployed link
+                            </button>
+                        </a>
+                    </div>
                     <p className="indent-2 mb-4 mx-4">
                         Stock app that allows users who want to day trade , long
                         term share hold, or even large corperations looking for
@@ -89,6 +100,7 @@ function Projects() {
                         Change,Daily Low,Daily High,Open Price and Closed Price
                         using third party APIs.
                     </p>
+
                     <div className=" flex justify-center">
                         <i className="ml-2">
                             {" "}
@@ -108,14 +120,27 @@ function Projects() {
                         </i>
                     </div>
                 </div>
+                <img
+                    className="WhaleWatchersImage basis-1/2 w-20 hover:scale-105"
+                    src="./images/whale-Watchers.png"
+                />
             </div>
             <div className="WorkDaySchedulerContainer flex flex-1 flex-row mb-8">
                 <img
-                    className="WorkDaySchedulerImage basis-1/2 w-28"
+                    className="WorkDaySchedulerImage basis-1/2 w-20 hover:scale-105"
                     src="./images/work-Day-Scheduler.png"
                 />
                 <div className="basis-1/2">
-                    <h3 className="text-end m-4">Work Day Scheduler</h3>
+                    <h3 className="text-end m-4 font-serif">
+                        WORK DAY SCHEDULER
+                    </h3>
+                    <div className="text-center">
+                        <a href="https://github.com/Zachary-Maddox/workday-scheduler">
+                            <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2">
+                                Repository Link
+                            </button>
+                        </a>
+                    </div>
                     <p className="indent-2 mb-4 mx-4">
                         Workday scheduler is a color coded scheduler for a 9-5
                         job that has a updating current date at the top and a

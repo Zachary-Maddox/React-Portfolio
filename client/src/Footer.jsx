@@ -1,22 +1,36 @@
 import React from "react";
 import { SiGithub, SiLinkedin } from "react-icons/si";
-import { AiOutlineCopyright } from "react-icons/ai";
+import {
+    AiOutlineCopyright,
+    AiOutlineMail,
+    AiOutlineDownload,
+} from "react-icons/ai";
 
 function footer() {
     return (
         <div id="Contact">
-            <h1 className="text-2xl text-center underline-offset-8  my-4">
+            <h1 className="text-3xl text-center underline-offset-8  mt-20 font-serif ">
                 Contact Information
             </h1>
-            <div className=" text-center justify-center mb-4">
-                <a href="mailto: z19s96p@aol.com">
-                    <span className="block">z19s96p@aol.com</span>
+            <div className=" text-center mb-4">
+                <a
+                    className="flex justify-center mt-4"
+                    href="mailto: z19s96p@aol.com"
+                >
+                    {" "}
+                    <AiOutlineMail size={20} /> z19s96p@aol.com
                 </a>
-                <a href="Zachary-Maddox-Resume.docx" download>
-                    <span className="block">Download My Resume </span>
+                <a
+                    className="flex justify-center"
+                    href="/documents/Zachary-Maddox-Resume.pdf"
+                    download
+                >
+                    {" "}
+                    <AiOutlineDownload size={20} />
+                    Download My Resume{" "}
                 </a>
             </div>
-            <h2 className="text-xl flex justify-center">Socials</h2>
+            <h2 className="text-xl text-center font-serif">Socials</h2>
             <div className="m-4 text-center flex justify-center space-x-2">
                 <a href="https://github.com/Zachary-Maddox">
                     {" "}
@@ -27,10 +41,9 @@ function footer() {
                     <SiLinkedin size={30} />
                 </a>
             </div>
-            <div className="m-4 text-center justify-center">
-                <span>
-                    <AiOutlineCopyright size={13} /> Zachary Maddox 2022
-                </span>
+            <div className="pb-4 text-center flex justify-center items-center font-serif">
+                <AiOutlineCopyright size={13} className="mr-2" /> Zachary Maddox
+                2022
             </div>
         </div>
     );

@@ -9,7 +9,7 @@ import {GrReactjs} from 'react-icons/gr';
 function AboutMe() {
     return (
         <div id="AboutMe">
-            <h1 className="AboutMe my-1 mx-8 text-4xl ">Zachary Maddox</h1>
+            <h1 className="AboutMe my-1 mx-8 text-4xl font-serif">Zachary Maddox</h1>
             <h2 className="Title mb-8 mx-8 text-lg">
                 Full Stack Web Devoloper in the Making{" "}
             </h2>
@@ -20,7 +20,7 @@ function AboutMe() {
                 on a dev team who is passionate for teaching aspiring future
                 first-class developers.{" "}
             </p>
-            <h2 className="text-2xl text-center underline-offset-8  my-4">
+            <h2 className="text-2xl text-center underline-offset-8 my-4 font-serif">
                 Technologies Used
             </h2>
             
