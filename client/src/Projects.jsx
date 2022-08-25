@@ -15,8 +15,8 @@ import { FaHtml5, FaNodeJs } from "react-icons/fa";
 function Projects() {
     return (
         <div id="Projects">
-            <h2 className="text-2xl text-center underline-offset-8  my-8 font-serif">
-                Work created or contributed to
+            <h2 className="text-2xl text-center underline underline-offset-8 decoration-1 my-8 font-serif">
+                Work Created or Contributed To
             </h2>
             <div className="GamegetterContainer  flex flex-1 flex-row mb-8">
                 <img
@@ -24,7 +24,7 @@ function Projects() {
                     src="./images/game-Getter.png"
                 />
                 <div className="basis-1/2">
-                    <h3 className=" text-end m-4 font-serif">GAME GETTER</h3>
+                    <h3 className=" text-end m-4 font-serif underline underline-offset-8 decoration-1">GAME GETTER</h3>
                     <div className="flex justify-center">
                         <a href="https://game-getter-project-2.herokuapp.com/">
                             <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">
@@ -89,7 +89,7 @@ function Projects() {
             </div>
             <div className="WhaleWatchersContainer flex flex-1 flex-row mb-8">
                 <div className="basis-1/2">
-                    <h3 className="text-end m-4 font-serif">WHALE WATCHERS</h3>
+                    <h3 className="text-end m-4 font-serif underline underline-offset-8 decoration-1">WHALE WATCHERS</h3>
                     <div className="flex justify-center">
                         <a href="https://jgordon59.github.io/Whale-Watchers/">
                         <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">
@@ -145,7 +145,7 @@ function Projects() {
                     src="./images/work-Day-Scheduler.png"
                 />
                 <div className="basis-1/2">
-                    <h3 className="text-end m-4 font-serif">
+                    <h3 className="text-end m-4 font-serif underline underline-offset-8 decoration-1">
                         WORK DAY SCHEDULER
                     </h3>
                     <div className="flex justify-center">
@@ -187,7 +187,7 @@ function Projects() {
             </div>
             <div className="NoteTakerContainer flex flex-1 flex-row mb-8">
                 <div className="basis-1/2">
-                    <h3 className="text-end m-4 font-serif">NOTE TAKER</h3>
+                    <h3 className="text-end m-4 font-serif underline underline-offset-8 decoration-1">NOTE TAKER</h3>
                     <div className="flex justify-center">
                         <a href=" https://zachary-maddox.github.io/taker-of-thy-notes/">
                         <button className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">
@@ -232,7 +232,7 @@ function Projects() {
                     src="./images/Weather-Forecast.png"
                 />
                 <div className="basis-1/2">
-                    <h3 className="text-end m-4 font-serif">
+                    <h3 className="text-end m-4 font-serif underline underline-offset-8 decoration-1">
                         WEATHER FORECAST
                     </h3>
                     <div className="flex justify-center">

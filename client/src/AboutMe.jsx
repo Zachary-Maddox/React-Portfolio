@@ -26,47 +26,65 @@ function AboutMe() {
                 on a dev team who is passionate for teaching aspiring future
                 first-class developers.{" "}
             </p>
-            <h2 className="text-2xl text-center underline-offset-8 my-4 font-serif">
+            <h2 className="text-2xl text-center my-4 font-serif underline underline-offset-8 decoration-1">
                 Technologies Used
             </h2>
 
             <div className="m-5 text-center flex justify-center ">
                 <a href="https://www.w3schools.com/html/">
+                    <div className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">HTML
                     <FaHtml5 size={30} color="red" />
+                    </div>
                 </a>
                 <a
                     className="ml-2"
                     href=" https://developer.mozilla.org/en-US/docs/Web/CSS"
                 >
                     {" "}
+                    <div className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">CSS
                     <IoLogoCss3 size={30} color="#000C66" />
+                    </div>
                 </a>
                 <a
                     className="ml-2"
                     href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                 >
                     {" "}
+                    <div className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">JAVASCRIPT
                     <SiJavascript size={30} color="yellow" />
+                    </div>
                 </a>
                 <a className="ml-2" href="https://nodejs.org/en/">
                     {" "}
+                    <div className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">NODE JS
                     <FaNodeJs size={30} color="green" />
+                    </div>
                 </a>
                 <a className="ml-2" href="https://reactjs.org/">
                     {" "}
+                    <div className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">REACT JS
                     <GrReactjs size={30} color="lightblue" />
+                    </div>
                 </a>
                 <a className="ml-2" href="https://www.mysql.com/">
+                <div className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">MySQL
                     <SiMysql size={30} color="orange" />
+                    </div>
                 </a>
                 <a className="ml-2" href="https://expressjs.com/">
-                    <SiExpress size={30} color="gray" />
+                <div className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">EXPRESS
+                <SiExpress size={30} color="white" />
+                    </div>
                 </a>
                 <a className="ml-2" href="https://handlebarsjs.com/">
-                    <SiHandlebarsdotjs size={30} color="black" />
+                <div className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">HANDLEBARS
+                <SiHandlebarsdotjs size={30} color="black" />
+                </div>
                 </a>
                 <a className="ml-2" href="https://jquery.com/">
-                    <SiJquery size={30} color="#000C66" />
+                <div className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">JQUERY
+                <SiJquery size={30} color="#000C66" />
+                </div>
                 </a>
             </div>
         </div>
