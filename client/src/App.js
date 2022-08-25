@@ -2,13 +2,15 @@ import AboutMe from "./AboutMe";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
 
-import { FaBeer } from 'react-icons/fa';
+
 
 function App() {
     return <div className="App">
       <Navbar/>
+      <div className="m-4">
         <AboutMe/>
         <Projects/>
+        </div>
     </div>;
 }
 

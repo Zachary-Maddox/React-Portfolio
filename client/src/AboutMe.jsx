@@ -1,15 +1,10 @@
 import React from "react";
-// import { FaBeer } from "react-icons/fa";
-// class Question extends React.Component {
-//     render() {
-//         return (
-//             <h3>
-//                 {" "}
-//                 Lets go for a <FaBeer />?{" "}
-//             </h3>
-//         );
-//     }
-// }
+import { FaHtml5,FaNodeJs } from 'react-icons/fa';
+import {IoLogoCss3 } from 'react-icons/io';
+import {SiJavascript,SiMysql } from 'react-icons/si';
+import {GrReactjs} from 'react-icons/gr';
+
+
 
 function AboutMe() {
     return (
@@ -22,35 +17,36 @@ function AboutMe() {
                 Currently enrolled with University of Central Florida attending
                 an online computer bootcamp for Full Stack Web
                 Development.Dedicated learner looking for a entry level position
-                on a dev team who is passionate for teaching aspiring
+                on a dev team who is passionate for teaching aspiring future
                 first-class developers.{" "}
             </p>
             <h2 className="text-2xl text-center underline-offset-8  my-4">
                 Technologies Used
             </h2>
-            <div className="m-5 text-center">
-                <button className="ButtonIcons bg-purple-800 text-stone-100 rounded-md ">
-                    FaHtml5
-                </button>
-                <button className="ButtonIcons bg-purple-800 text-stone-100 rounded-md ml-2">
+            {/* add a tags and link for icons */}
+            <div className="m-5 text-center flex justify-center ">
+                 <a  href="https://www.w3schools.com/html/">
+                <FaHtml5 size={30} color="red" />
+                </a>
+                <a className="ml-2" href=" https://developer.mozilla.org/en-US/docs/Web/CSS">
                     {" "}
-                    IoLogoCss3
-                </button>
-                <button className="ButtonIcons bg-purple-800 text-stone-100 rounded-md ml-2">
+                    <IoLogoCss3  size={30} color="blue"/>
+                    </a>
+                <a className="ml-2" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
                     {" "}
-                    SiJavascript
-                </button>
-                <button className="ButtonIcons bg-purple-800 text-stone-100 rounded-md ml-2">
+                    <SiJavascript  size={30} color="yellow"/>
+                    </a>
+                <a className="ml-2" href="https://nodejs.org/en/">
                     {" "}
-                    FaNodeJs
-                </button>
-                <button className="ButtonIcons bg-purple-800 text-stone-100 rounded-md ml-2">
+                    <FaNodeJs  size={30} color="green"/>
+                    </a>
+                <a className="ml-2" href="https://reactjs.org/">
                     {" "}
-                    GrReactjs
-                </button>
-                <button className="ButtonIcons bg-purple-800 text-stone-100 rounded-md ml-2">
-                    SiMysql
-                </button>
+                    <GrReactjs  size={30} color="lightblue"/>
+                    </a>
+                <a className="ml-2" href="https://www.mysql.com/">
+                    <SiMysql  size={30} color="orange" />
+                    </a>
             </div>
         </div>
     );
