@@ -23,9 +23,9 @@ function AboutMe() {
             <h2 className="text-2xl text-center underline-offset-8  my-4">
                 Technologies Used
             </h2>
-            {/* add a tags and link for icons */}
+            
             <div className="m-5 text-center flex justify-center ">
-                 <a  href="https://www.w3schools.com/html/">
+                <a  href="https://www.w3schools.com/html/">
                 <FaHtml5 size={30} color="red" />
                 </a>
                 <a className="ml-2" href=" https://developer.mozilla.org/en-US/docs/Web/CSS">

@@ -1,6 +1,7 @@
 import AboutMe from "./AboutMe";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
+import Footer from "./Footer";
 
 
 
@@ -11,6 +12,7 @@ function App() {
         <AboutMe/>
         <Projects/>
         </div>
+        <Footer/>
     </div>;
 }
 
