@@ -13,7 +13,7 @@ import { FaHtml5, FaNodeJs } from "react-icons/fa";
 
 function Projects() {
     return (
-        <div>
+        <div id="Projects">
             <h2 className="text-2xl text-center underline-offset-8  my-8">
                 Work created or contributed to
             </h2>

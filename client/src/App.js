@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 
 function App() {
-    return <div className="App">
+    return <div className="App bg-slate-800 text-white font-medium">
       <Navbar/>
       <div className="m-4">
         <AboutMe/>

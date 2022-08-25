@@ -4,7 +4,7 @@ import { AiOutlineCopyright } from "react-icons/ai";
 
 function footer() {
     return (
-        <div>
+        <div id="Contact">
             <h1 className="text-2xl text-center underline-offset-8  my-4">
                 Contact Information
             </h1>

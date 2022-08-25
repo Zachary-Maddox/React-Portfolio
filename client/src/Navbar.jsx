@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <nav
             id="header"
-            className="w-full z-30 top-10 py-1 bg-white shadow-lg border-b border-blue-400 "
+            className="w-full z-30 top-0 py-1 bg-slate-700 shadow-lg sticky"
         >
             <div className="w-full flex items-center justify-between mt-0 px-6 py-2">
                 <label
@@ -29,27 +29,30 @@ function Navbar() {
                     id="menu"
                 >
                     <nav>
-                        <ul className="md:flex items-center justify-between text-base text-blue-600 pt-4 md:pt-0">
+                        <ul className="md:flex items-center justify-between text-base text-gray-400 pt-4 md:pt-0">
+                            <li>
+                                <img className="w-12 rounded-full" src="./images/Profile.jpg" alt="Profile Picture" />
+                            </li>
                             <li>
                                 <a
-                                    className="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2"
-                                    href="#"
+                                    className="inline-block no-underline hover:text-white font-medium text-lg py-2 px-4 lg:-ml-2"
+                                    href="#AboutMe"
                                 >
                                     About Me
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    className="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2"
-                                    href="#"
+                                    className="inline-block no-underline hover:text-white font-medium text-lg py-2 px-4 lg:-ml-2"
+                                    href="#Projects"
                                 >
                                     Projects
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    className="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2"
-                                    href="#"
+                                    className="inline-block no-underline hover:text-white font-medium text-lg py-2 px-4 lg:-ml-2"
+                                    href="#Contact"
                                 >
                                     Contact
                                 </a>
