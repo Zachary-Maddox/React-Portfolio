@@ -50,7 +50,7 @@ function Projects() {
                         of release, a brief description of the game, the
                         publisher, global sales, critic scores, the developer,
                         the ESRB rating, an image associated with the game, and
-                        a website for more information on about the game if it
+                        a website for more information about the game if it
                         exists. If users would like to save any search result to
                         their own personalized dashboard for referencing later,
                         they will be prompted to sign up or log in.
@@ -109,9 +109,9 @@ function Projects() {
                         term share hold, or even large corperations looking for
                         partnership the ability to use a stocks ticker (Ex. AAPL
                         for apple or TSLA for tesla ) and recieve relative news
-                        information on that search stock . It also displays the
-                        stocks data for : Current Price,Change,Percent
-                        Change,Daily Low,Daily High,Open Price and Closed Price
+                        information on that searched stock . It also displays the
+                        stock's data for : Current Price, Change, Percent
+                        Change, Daily Low, Daily High, Open Price, and Closed Price
                         using third party APIs.
                     </p>
 
@@ -157,12 +157,12 @@ function Projects() {
                         </a>
                     </div>
                     <p className="indent-2 mb-4 mx-4">
-                        Workday scheduler is a color coded scheduler for a 9-5
+                        Workday Scheduler is a color coded scheduler for a 9-5
                         job that has a updating current date at the top and a
                         built-in color coded interval for current , present,and
-                        past. Current is red , past is grey, and future is
-                        green. This scheduler is locally stored and pullrf so
-                        that when you refresh the page your textarea input is
+                        past. Current is red, past is grey, and future is
+                        green. This scheduler is locally stored and pulled so
+                        that when you refresh the page your text area input is
                         still there.
                     </p>
                     <div className=" flex justify-center">
@@ -203,7 +203,7 @@ function Projects() {
                         </a>
                     </div>
                     <p className="indent-2 mb-4 mx-4">
-                    Note taking application that allows you create and save notes to a Database. You Click on the new note title to create and once the new note is created you simply press the save icon to save the note. After you have multiple notes added you can always go back and review by clicking on that particular note in the left hand column. From there the note you selected will appear in the righthand column.
+                    Note taking application that allows you create and save notes to a database. A new note is created for you when you click on the "new note" title, to save your note simply click the save icon. After you have multiple notes added you can always go back and review by clicking on that particular note in the left hand column. From there the note you selected will appear in the right hand column.
                     </p>
 
                     <div className=" flex justify-center">
@@ -250,7 +250,7 @@ function Projects() {
                         </a>
                     </div>
                     <p className="indent-2 mb-4 mx-4">
-                    Five-day weather forecast that allows you to search up a city and gives you the weather temp,wind,humidity,uv index,and weather icon. You will also see the City and date displayed in the top section.
+                    Five-day weather forecast that allows you to search a city and gives you the weather's temp, wind, humidity, uv index, and weather icon. You will also see the city and date displayed in the top section.
                     </p>
                     <div className=" flex justify-center">
                         <i className="ml-2">

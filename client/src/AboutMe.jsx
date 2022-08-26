@@ -7,6 +7,7 @@ import {
     SiExpress,
     SiHandlebarsdotjs,
     SiJquery,
+    SiMongodb
 } from "react-icons/si";
 import { GrReactjs } from "react-icons/gr";
 
@@ -20,9 +21,9 @@ function AboutMe() {
                 Full Stack Web Devoloper in the Making{" "}
             </h2>
             <p className="Description flex-wrap w-3/5 ml-8 indent-2">
-                Currently enrolled with University of Central Florida attending
+                Currently enrolled with the University of Central Florida attending
                 an online computer bootcamp for Full Stack Web
-                Development.Dedicated learner looking for a entry level position
+                Development. Dedicated learner looking for a entry level position
                 on a dev team who is passionate for teaching aspiring future
                 first-class developers.{" "}
             </p>
@@ -84,6 +85,11 @@ function AboutMe() {
                 <a className="ml-2" href="https://jquery.com/">
                 <div className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">JQUERY
                 <SiJquery size={30} color="#000C66" />
+                </div>
+                </a>
+                <a className="ml-2" href="https://www.mongodb.com/">
+                <div className="hover:bg-cyan-600 bg-zinc-500 border-2 rounded-md border-slate-400 mb-2 flex items-center justify-center">MONGODB
+                <SiMongodb size={30} color="#32CD30" />
                 </div>
                 </a>
             </div>
