@@ -23,7 +23,7 @@ function Projects() {
             <div className="GamegetterContainer  flex flex-1 flex-row mb-8">
                 <img
                     className="GameGetterImage basis-1/2 w-20 hover:scale-105"
-                    src="./images/game-Getter.png"
+                    src="./images/game-getter.png"
                 />
                 <div className="basis-1/2">
                     <h3 className=" text-end m-4 font-serif underline underline-offset-8 decoration-1">
@@ -142,13 +142,13 @@ function Projects() {
                 </div>
                 <img
                     className="WhaleWatchersImage basis-1/2 w-20 hover:scale-105"
-                    src="./images/whale-Watchers.png"
+                    src="./images/whale-watchers.png"
                 />
             </div>
             <div className="WorkDaySchedulerContainer flex flex-1 flex-row mb-8">
                 <img
                     className="WorkDaySchedulerImage basis-1/2 w-20 hover:scale-105"
-                    src="./images/work-Day-Scheduler.png"
+                    src="./images/work-day-scheduler.png"
                 />
                 <div className="basis-1/2">
                     <h3 className="text-end m-4 font-serif underline underline-offset-8 decoration-1">
@@ -238,13 +238,13 @@ function Projects() {
                 </div>
                 <img
                     className="NoteTakerImage basis-1/2 w-20 hover:scale-105"
-                    src="./images/Note-Taker.png"
+                    src="./images/note-taker.png"
                 />
             </div>
             <div className="WeatherForecastContainer flex flex-1 flex-row mb-8">
                 <img
                     className="WeatherForecastImage basis-1/2 w-20 hover:scale-105"
-                    src="./images/Weather-Forecast.png"
+                    src="./images/weather-forecast.png"
                 />
                 <div className="basis-1/2">
                     <h3 className="text-end m-4 font-serif underline underline-offset-8 decoration-1">
@@ -343,7 +343,7 @@ function Projects() {
                 </div>
                 <img
                     className="SupporDevImage basis-1/2 w-20 hover:scale-105"
-                    src="./images/SupporDev.png"
+                    src="./images/suppordev.png"
                 />
             </div>
         </div>
