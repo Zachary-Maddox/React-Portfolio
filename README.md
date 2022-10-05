@@ -6,7 +6,7 @@ This is my ,Zachary Maddox, React Portfolio. Inside you'll find five of my previ
 Repository Link:
 https://github.com/Zachary-Maddox/React-Portfolio
 Deployed Link:
-https://zachary-maddox.github.io/React-Portfolio/
+https://react-portfolio-xi-two.vercel.app/
 
 <img src="client/public/images/React-App.png">
 
