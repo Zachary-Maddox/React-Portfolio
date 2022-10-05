@@ -3,12 +3,12 @@
 ## Description
 
 This is my ,Zachary Maddox, React Portfolio. Inside you'll find five of my previous projects I have built myself or helped in creating. Along side the images you will see the deployed link to the website or the github repository if available. Each project has the applications used to create said project along with a brief description.
-<img src="client/public/images/React-App.png">
-
 Repository Link:
 https://github.com/Zachary-Maddox/React-Portfolio
 Deployed Link:
 https://zachary-maddox.github.io/React-Portfolio/
+
+<img src="client/public/images/React-App.png">
 
 ## Table of contents
 
